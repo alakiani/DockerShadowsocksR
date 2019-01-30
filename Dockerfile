@@ -3,7 +3,7 @@ FROM ubuntu:18.04
 ENV SERVER_ADDR     0.0.0.0
 ENV SERVER_PORT     8111
 ENV PASSWORD        Ala123456
-ENV METHOD          chcha20
+ENV METHOD          aes-256-cfb
 ENV PROTOCOL        origin
 ENV OBFS            http_simple
 ENV TIMEOUT         300
